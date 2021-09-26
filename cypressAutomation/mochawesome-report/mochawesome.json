@@ -1,0 +1,117 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-26T06:04:43.805Z",
+    "end": "2021-09-26T06:05:05.347Z",
+    "duration": 21542,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3f40e2ec-8707-48b8-a927-4f3b69303069",
+      "title": "",
+      "fullFile": "cypress/integration/examples/BDD/ecommerce.feature",
+      "file": "cypress/integration/examples/BDD/ecommerce.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2d4c5f6b-5483-4ad7-a903-7c6163a87e12",
+          "title": "End to end Ecommerce validation",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Ecommerce products delivery",
+              "fullTitle": "End to end Ecommerce validation Ecommerce products delivery",
+              "timedOut": null,
+              "duration": 16196,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "95fd25de-5b7b-48a3-a23a-079fa52ce6cb",
+              "parentUUID": "2d4c5f6b-5483-4ad7-a903-7c6163a87e12",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Filling the form to shop",
+              "fullTitle": "End to end Ecommerce validation Filling the form to shop",
+              "timedOut": null,
+              "duration": 2014,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "a8421012-1d34-490b-aa8c-cf5d79bd3b08",
+              "parentUUID": "2d4c5f6b-5483-4ad7-a903-7c6163a87e12",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "95fd25de-5b7b-48a3-a23a-079fa52ce6cb",
+            "a8421012-1d34-490b-aa8c-cf5d79bd3b08"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 18210,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "useInlineDiffs": false
+      },
+      "version": "4.0.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "4.0.1"
+    }
+  }
+}
